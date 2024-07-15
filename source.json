@@ -1,0 +1,557 @@
+{
+    "account": {
+        "id": 21055979,
+        "uuid": "0b553b49-fc23-488d-bdb0-89ed6fcfc4f6",
+        "username": "cktc",
+        "isActive": true,
+        "profilePictureUrl": null,
+        "avatarMode": "CIRCLE_SMALL",
+        "backgroundHeroColor": null,
+        "pageTitle": "@cktc",
+        "googleAnalyticsId": null,
+        "facebookPixelId": null,
+        "tiktokPixelId": null,
+        "donationsActive": true,
+        "causeBanner": null,
+        "contentWarning": null,
+        "description": "Co-founder & CTO of DOTTED, Web3 and Zero-party Data Expert.",
+        "isLogoVisible": true,
+        "socialLinksPosition": "TOP",
+        "useSignupLink": false,
+        "createdAt": 1636288616000,
+        "updatedAt": 1721008346000,
+        "expandableLinkCaret": true,
+        "defaultProfilePage": "LINKS",
+        "verticals": [
+            "business-professional"
+        ],
+        "customAvatar": null,
+        "customAvatarAttributes": null,
+        "backgroundImageAttributes": null,
+        "profileBadges": null,
+        "isVenmoEnabled": true,
+        "isSquareWalletEnabled": true,
+        "isCookieBannerEnabled": true,
+        "isInitialsProfileEnabled": true,
+        "isWhatsappNotificationsEnabled": true,
+        "isShareLinksEnabled": true,
+        "isOnlyfansSEOEnabled": false,
+        "isShareWithEllipsis": true,
+        "linkTypesForSEO": null,
+        "manualTitleTag": null,
+        "dynamicMetaTitle": "@cktc | Linktree",
+        "dynamicMetaDescription": "Co-founder & CTO of DOTTED, Web3 and Zero-party Data Expert.",
+        "enableDynamicProfilePageMetadata": true,
+        "linkPlatforms": [],
+        "activeGates": [],
+        "isAmazonAffiliateEnabled": true,
+        "profileLinkContentDisplayType": "default",
+        "complementaryThemeProperties": false,
+        "timezone": "Asia/Hong_Kong",
+        "profileDirectoryVerticalUrl": "/discover/profile-directory/s/startup",
+        "groupsEnabled": false,
+        "showSignupOption": true,
+        "footerCtaButton": "buttonToHome",
+        "isSnapchatSocialShareEnabled": true,
+        "isReportLinktreeEnabled": true,
+        "getDynamicMetaTitleVariation": 0,
+        "isVisualLinkPreviewsEnabled": true,
+        "isShareLinkPreviewEnabled": false,
+        "isShareLinkPreviewVScraperEnabled": false,
+        "isStoreTabEnabled": false,
+        "isProfilePreviewsLinkAppsEnabled": true,
+        "isFetchCoMoFromLinktreeBackendEnabled": true,
+        "canAccessMonetizationTab": true,
+        "eligibleForMonetization": "RESTRICTED",
+        "affiliateTokens": [],
+        "ownedBy": {
+            "id": 23015898,
+            "uuid": "8c6da94a-7cd1-40c4-bd06-f5206dcf2c8d",
+            "isEmailVerified": true
+        },
+        "pageMeta": null,
+        "integrations": [],
+        "links": [
+            {
+                "id": 392465111,
+                "type": "HEADER",
+                "title": "Web3 / Zero-party Data / Gen Z",
+                "position": 0,
+                "url": "",
+                "shouldRouteToProfile": true,
+                "modifiers": {
+                    "animation": null,
+                    "isForwarding": false,
+                    "isForwardingActive": false,
+                    "thumbnailUrl": null,
+                    "amazonAffiliate": null,
+                    "layoutOption": "stack"
+                },
+                "context": {
+                    "headerLayoutOption": "stack"
+                },
+                "rules": {
+                    "gate": {
+                        "activeOrder": [],
+                        "sensitiveContent": {
+                            "domain": ""
+                        },
+                        "age": null,
+                        "passcode": null,
+                        "nft": null,
+                        "payment": null
+                    }
+                },
+                "metadata": null,
+                "parent": null
+            },
+            {
+                "id": 392466188,
+                "type": "CLASSIC",
+                "title": "Shortcut to Product Market Fit",
+                "position": 1,
+                "url": "https://www.snapinput.com/vipbot?mwr=8e85335b",
+                "shouldRouteToProfile": false,
+                "modifiers": {
+                    "animation": null,
+                    "isForwarding": false,
+                    "isForwardingActive": false,
+                    "thumbnailUrl": null,
+                    "amazonAffiliate": null,
+                    "layoutOption": "stack"
+                },
+                "context": {},
+                "rules": {
+                    "gate": {
+                        "activeOrder": [],
+                        "sensitiveContent": {
+                            "domain": ""
+                        },
+                        "age": null,
+                        "passcode": null,
+                        "nft": null,
+                        "payment": null
+                    }
+                },
+                "metadata": null,
+                "parent": null
+            },
+            {
+                "id": 392464763,
+                "type": "CLASSIC",
+                "title": "SnapInput | Don't Build the Wrong Thing. Ask the Right Questions.",
+                "position": 2,
+                "url": "http://snapinput.com",
+                "shouldRouteToProfile": false,
+                "modifiers": {
+                    "animation": null,
+                    "isForwarding": false,
+                    "isForwardingActive": false,
+                    "thumbnailUrl": null,
+                    "amazonAffiliate": null,
+                    "layoutOption": "stack"
+                },
+                "context": {},
+                "rules": {
+                    "gate": {
+                        "activeOrder": [],
+                        "sensitiveContent": {
+                            "domain": ""
+                        },
+                        "age": null,
+                        "passcode": null,
+                        "nft": null,
+                        "payment": null
+                    }
+                },
+                "metadata": null,
+                "parent": null
+            },
+            {
+                "id": 392463886,
+                "type": "CLASSIC",
+                "title": "Sociarch - Building the World's Largest Oracle for Preference Data",
+                "position": 3,
+                "url": "http://sociarch.com",
+                "shouldRouteToProfile": false,
+                "modifiers": {
+                    "animation": null,
+                    "isForwarding": false,
+                    "isForwardingActive": false,
+                    "thumbnailUrl": null,
+                    "amazonAffiliate": null,
+                    "layoutOption": "stack"
+                },
+                "context": {},
+                "rules": {
+                    "gate": {
+                        "activeOrder": [],
+                        "sensitiveContent": {
+                            "domain": ""
+                        },
+                        "age": null,
+                        "passcode": null,
+                        "nft": null,
+                        "payment": null
+                    }
+                },
+                "metadata": null,
+                "parent": null
+            },
+            {
+                "id": 296218273,
+                "type": "CLASSIC",
+                "title": "DOTTED",
+                "position": 4,
+                "url": "http://dttd.io",
+                "shouldRouteToProfile": false,
+                "modifiers": {
+                    "animation": null,
+                    "isForwarding": false,
+                    "isForwardingActive": false,
+                    "thumbnailUrl": null,
+                    "amazonAffiliate": null,
+                    "layoutOption": null
+                },
+                "context": {},
+                "rules": {
+                    "gate": {
+                        "activeOrder": [],
+                        "sensitiveContent": {
+                            "domain": ""
+                        },
+                        "age": null,
+                        "passcode": null,
+                        "nft": null,
+                        "payment": null
+                    }
+                },
+                "metadata": null,
+                "parent": null
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "EMAIL_ADDRESS",
+                "url": "mailto:chris@dttd.io",
+                "position": 0
+            },
+            {
+                "type": "LINKEDIN",
+                "url": "https://www.linkedin.com/in/chrisktcheung/",
+                "position": 2
+            },
+            {
+                "type": "TELEGRAM",
+                "url": "https://t.me/cktc2000",
+                "position": 3
+            }
+        ],
+        "theme": {
+            "key": "custom",
+            "luminance": "DARK",
+            "background": {
+                "color": "#000000",
+                "style": "COLORDOWN",
+                "type": "COLOR"
+            },
+            "buttonStyle": {
+                "type": "FILL",
+                "backgroundStyle": {
+                    "color": "#ffffff"
+                },
+                "shadowStyle": {
+                    "color": "#000000"
+                },
+                "textStyle": {
+                    "color": "#888888"
+                }
+            },
+            "socialStyle": {
+                "color": "#ffffff"
+            },
+            "typeface": {
+                "color": "#ffffff",
+                "family": "bitter"
+            }
+        },
+        "themeV2": {
+            "key": "custom",
+            "luminance": "DARK",
+            "background": {
+                "color": "#000000",
+                "style": "COLORDOWN",
+                "type": "COLOR"
+            },
+            "buttonStyle": {
+                "type": "FILL",
+                "backgroundStyle": {
+                    "color": "#ffffff"
+                },
+                "shadowStyle": {
+                    "color": "#000000"
+                },
+                "textStyle": {
+                    "color": "#888888"
+                }
+            },
+            "typeface": {
+                "color": "#ffffff",
+                "family": "bitter"
+            }
+        }
+    },
+    "theme": {
+        "key": "custom",
+        "luminance": "DARK",
+        "background": {
+            "color": "#000000",
+            "style": "COLORDOWN",
+            "type": "COLOR"
+        },
+        "buttonStyle": {
+            "type": "FILL",
+            "backgroundStyle": {
+                "color": "#ffffff"
+            },
+            "shadowStyle": {
+                "color": "#000000"
+            },
+            "textStyle": {
+                "color": "#888888"
+            }
+        },
+        "typeface": {
+            "color": "#ffffff",
+            "family": "bitter"
+        }
+    },
+    "isProfileVerified": true,
+    "hasConsentedToView": true,
+    "username": "cktc",
+    "pageTitle": "@cktc",
+    "description": "Co-founder & CTO of DOTTED, Web3 and Zero-party Data Expert.",
+    "socialLinks": [
+        {
+            "type": "EMAIL_ADDRESS",
+            "url": "mailto:chris@dttd.io",
+            "position": 0
+        },
+        {
+            "type": "LINKEDIN",
+            "url": "https://www.linkedin.com/in/chrisktcheung/",
+            "position": 2
+        },
+        {
+            "type": "TELEGRAM",
+            "url": "https://t.me/cktc2000",
+            "position": 3
+        }
+    ],
+    "integrations": [],
+    "seoSchemaClassifications": {
+        "typeClassification": null
+    },
+    "metaTitle": "@cktc | Linktree",
+    "metaDescription": "Co-founder & CTO of DOTTED, Web3 and Zero-party Data Expert.",
+    "profilePictureUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIBAMAAABfdrOtAAAAMFBMVEXD9uE54Ju69d1c5q2h8dB+675T5KiP7sdt6LWp8tSy89hK46SH7MKY78t16rpk57FKl7sXAAAC8ElEQVR42u3aPU9UQRQG4MMFxMUPeF350FX3WkDsZIMaC4s1NiY2QGyNop0xZrehNAvaaLV0lhhNbDQRNDFWQmGhjWthYmIjrR8F/gIbksnC3rl3Z85LXJ3nD5zMzH1nZs+sBEEQBEEQBEEQBEHQJPp8BgDOvheeZ7PYNNoQkoswCjNCcQFNKFVOYItVUbcPW+WXRNs8tjkqysbRQkVURbNoYZQ4EKPGG4hxRBQNIIFm8KeR4LCo6UGSYVGzB4mmCLPFm68IBi0qvbDQ2sCOw6DlcQ0WB0SHiTsv9DkYtKTshVUsGrph0A6VLlh9Ew2LsJoQDVVYDRJ2LlJQ1mF1UDSUQpH/s8j0X1BEJ4yfUop0zt61I7vwAKwanXMy9sOmKMJP44gI/9QaJFzqadf6Xt66G9EyEg2JlirvhDe6eVE0+m0p4c/XiujZjwR1Qo+I2yfaBfDbRNE8b98ydqOFshisD+ymaMvNYotj0oRyQObrQjAGwChUhGJs2dQoNoQk9wObzi0Jz/Ork8Dkz7IEQdAiHyVsc0M1L083kOC2VploDhb3RUNuHlavY/HWU0KKIe8q/aYG7dIdrSODV+LlEjL5rXA9TVf2fy+jLssiMlsQR33Ibjj2vzSmu+48EP5QqgB9KDmAP5RHaFPN/5Ep3ZBX2HmxP4+2rfj3U9IVHWaLP1+LcPDCpSVI/r564CT2bz6lmyJ8wJ4ttg04GfHvoqUrKHTO09X9O8HpaoQoevW71+DoECHvXpmHqzxxUzEUXgDSldtoODpbJWyPHm91XXA2sRNFrvE2emMwFOngIuNwViH86rUc8ryh1L2fl9K90XuJhdYvuioc1BzeZFirbpxEuwpm1XkTtkDo2VkeNml31WIsTh4ju0JDHH1FZjO0P0QZD8RdlLHKKRFeFVODXuWeeJtDiu+i4CFs8hVR0beBRLeWREn0JWkYH0RR7iO2G/4Vi67cnRKavL0cC8GTd3c3C708faUuQRAEQRAE/4o/lO2X/26nilIAAAAASUVORK5CYII=",
+    "links": [
+        {
+            "id": "392465111",
+            "title": "Web3 / Zero-party Data / Gen Z",
+            "context": {
+                "headerLayoutOption": "stack"
+            },
+            "animation": null,
+            "thumbnail": null,
+            "url": "",
+            "amazonAffiliate": null,
+            "type": "HEADER",
+            "rules": {
+                "gate": {
+                    "activeOrder": [],
+                    "sensitiveContent": {
+                        "domain": ""
+                    },
+                    "age": null,
+                    "passcode": null,
+                    "nft": null,
+                    "payment": null
+                }
+            },
+            "position": 0,
+            "locked": null,
+            "parent": null,
+            "children": [],
+            "layoutOption": "stack",
+            "metaData": null
+        },
+        {
+            "id": "392466188",
+            "title": "Shortcut to Product Market Fit",
+            "context": {},
+            "animation": null,
+            "thumbnail": null,
+            "url": "https://www.snapinput.com/vipbot?mwr=8e85335b",
+            "amazonAffiliate": null,
+            "type": "CLASSIC",
+            "rules": {
+                "gate": {
+                    "activeOrder": [],
+                    "sensitiveContent": {
+                        "domain": ""
+                    },
+                    "age": null,
+                    "passcode": null,
+                    "nft": null,
+                    "payment": null
+                }
+            },
+            "position": 1,
+            "locked": null,
+            "parent": null,
+            "children": [],
+            "layoutOption": "stack",
+            "metaData": null
+        },
+        {
+            "id": "392464763",
+            "title": "SnapInput | Don't Build the Wrong Thing. Ask the Right Questions.",
+            "context": {},
+            "animation": null,
+            "thumbnail": null,
+            "url": "http://snapinput.com",
+            "amazonAffiliate": null,
+            "type": "CLASSIC",
+            "rules": {
+                "gate": {
+                    "activeOrder": [],
+                    "sensitiveContent": {
+                        "domain": ""
+                    },
+                    "age": null,
+                    "passcode": null,
+                    "nft": null,
+                    "payment": null
+                }
+            },
+            "position": 2,
+            "locked": null,
+            "parent": null,
+            "children": [],
+            "layoutOption": "stack",
+            "metaData": null
+        },
+        {
+            "id": "392463886",
+            "title": "Sociarch - Building the World's Largest Oracle for Preference Data",
+            "context": {},
+            "animation": null,
+            "thumbnail": null,
+            "url": "http://sociarch.com",
+            "amazonAffiliate": null,
+            "type": "CLASSIC",
+            "rules": {
+                "gate": {
+                    "activeOrder": [],
+                    "sensitiveContent": {
+                        "domain": ""
+                    },
+                    "age": null,
+                    "passcode": null,
+                    "nft": null,
+                    "payment": null
+                }
+            },
+            "position": 3,
+            "locked": null,
+            "parent": null,
+            "children": [],
+            "layoutOption": "stack",
+            "metaData": null
+        },
+        {
+            "id": "296218273",
+            "title": "DOTTED",
+            "context": {},
+            "animation": null,
+            "thumbnail": null,
+            "url": "http://dttd.io",
+            "amazonAffiliate": null,
+            "type": "CLASSIC",
+            "rules": {
+                "gate": {
+                    "activeOrder": [],
+                    "sensitiveContent": {
+                        "domain": ""
+                    },
+                    "age": null,
+                    "passcode": null,
+                    "nft": null,
+                    "payment": null
+                }
+            },
+            "position": 4,
+            "locked": null,
+            "parent": null,
+            "children": [],
+            "layoutOption": "stack",
+            "metaData": null
+        }
+    ],
+    "leapLink": null,
+    "isOwner": false,
+    "isLogoVisible": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "stage": "production",
+    "storeProducts": [],
+    "storeCollections": [],
+    "storeHasAffiliateProducts": false,
+    "profileHasAffiliateContent": false,
+    "affiliateLinkIds": [],
+    "defaultPage": "LINKS",
+    "environment": {
+        "LINK_TYPES_ASSETS_ENDPOINT": "https://link-types-assets.production.linktr.ee",
+        "STRIPE_PAYMENTS_API_ENDPOINT": "https://stripe-payments.linktr.ee",
+        "STRIPE_PUBLISHABLE_KEY": "pk_live_51IdFBuL9SYJKPuFO2CTt5Wrpw46qcwd1ZjWC4MLOYi1aUXIfhfRbK7EkDJgMVQVaTcOceuPpCEnkv0g7J6TgkNdD00TD9bsb4o",
+        "PAYPAL_PAYMENTS_API_ENDPOINT": "https://paypal-payments.linktr.ee",
+        "PAYPAL_PAYMENTS_CLIENT_ID": "ATsU006_NqnC_Jk_W49YoQSnMh9kDXgMY_IVkUhJbutOkhQ7F8wlTWoJHyi2GteXaczfOGu22BSdWopq",
+        "SHOPIFY_INTEGRATIONS_API_ENDPOINT": "https://shopify-integrations.linktr.ee",
+        "META_IMAGE_URL": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/default-meta-image.png",
+        "RECAPTCHA_SITE_KEY": "6LdGYT4cAAAAANW9oE1Sa2AxBi8b9ZAbmvYBPnZm",
+        "RECAPTCHA_SITE_KEY_INVISIBLE": "6LcGlm0dAAAAAMfsVsJl3MZtjI-cKhBYzq5RPEo4",
+        "GRAPHQL_API_ENDPOINT": "https://graph.linktr.ee/graphql",
+        "PROFILES_API_HOST": "https://profiles-api.production.linktr.ee",
+        "LINKER_RECOMMENDATIONS_ENDPOINT": "https://api.linktr.ee/recommendations",
+        "BASE_PROFILE_URL": "https://linktr.ee",
+        "CDN_DISTRIBUTION_URL": "https://assets.production.linktr.ee/profiles/"
+    },
+    "contentGating": "none",
+    "videoStructuredData": [],
+    "hasSensitiveContent": false,
+    "auth0Config": {
+        "clientID": "rdPMLphw1ztUXo52bXtf3ah07kSUWguy",
+        "domain": "auth.linktr.ee",
+        "redirectUri": "https://linktr.ee/auth/callback",
+        "responseType": "token id_token",
+        "responseMode": "form_post",
+        "audience": "https://linktr.ee/api"
+    },
+    "followerNotificationsEnabled": false,
+    "followerCapabilities": null,
+    "isPreview": false,
+    "statsigInitValues": {
+        "featureGates": {
+            "enable_ms_clarity_on_profiles": false
+        },
+        "experiments": {},
+        "layers": {
+            "profile--signup--footer_cta_button": {
+                "footer_cta_button_key": "control",
+                "footer_cta_button_label": "Create your Linktree",
+                "footer_cta_button_url_path": "",
+                "footer_cta_button_color": "white"
+            }
+        }
+    }
+}
