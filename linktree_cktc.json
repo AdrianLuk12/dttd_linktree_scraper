@@ -1,0 +1,35 @@
+{
+    "username": "cktc",
+    "avatar": null,
+    "isActive": true,
+    "description": "Co-founder & CTO of DOTTED, Web3 and Zero-party Data Expert.",
+    "createdAt unix": 1636288616000,
+    "udpatedAt unix": 1721008346000,
+    "createdAt": "2021-11-07 20:36:56",
+    "udpatedAt": "2024-07-15 09:52:26",
+    "links": [
+        {
+            "Shortcut to Product Market Fit": "https://www.snapinput.com/vipbot?mwr=8e85335b"
+        },
+        {
+            "SnapInput | Don't Build the Wrong Thing. Ask the Right Questions.": "http://snapinput.com"
+        },
+        {
+            "Sociarch - Building the World's Largest Oracle for Preference Data": "http://sociarch.com"
+        },
+        {
+            "DOTTED": "http://dttd.io"
+        }
+    ],
+    "contacts": [
+        {
+            "EMAIL_ADDRESS": "mailto:chris@dttd.io"
+        },
+        {
+            "LINKEDIN": "https://www.linkedin.com/in/chrisktcheung/"
+        },
+        {
+            "TELEGRAM": "https://t.me/cktc2000"
+        }
+    ]
+}
