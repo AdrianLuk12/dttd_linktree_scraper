@@ -199,11 +199,9 @@ async def main():
     print(f"updatedAt unix : {user_info.updatedAt}")
     print(f"createdAt : {str(convert_unix_time(user_info.createdAt))}")
     print(f"updatedAt : {str(convert_unix_time(user_info.updatedAt))}")
-
     print("\nLinks:")
     for link in user_info.links:
         print(link.title + ": "+ link.url)
-
     print("\nContacts:")
     for contact in user_info.contacts:
         print(contact.title + ": "+ contact.url)
