@@ -221,7 +221,7 @@ async def main():
         "contacts": [{contact.title: contact.url} for contact in user_info.contacts],
     }
 
-    with open(f"linktree_{user_info.username}.json", "w") as output:
+    with open(f"./output/linktree_{user_info.username}.json", "w") as output:
         json.dump(result, output, indent=4)
         
 if __name__ == "__main__":
