@@ -6,6 +6,7 @@ import aiohttp
 from bs4 import BeautifulSoup
 import json
 import datetime
+import os
 
 @dataclass
 class Link:
@@ -176,51 +177,102 @@ def convert_unix_time(t):
 
 async def main():
     # url = "https://linktr.ee/cktc"
-    
-    if len(sys.argv) < 2:
-        print("Username or url is needed!")
-        sys.exit(1)
+    if len(sys.argv) > 1:
+        input = sys.argv[1]
+        if "linktr.ee" in input:
+            username, url = None, input
+        else:
+            username, url = input, None
 
-    input = sys.argv[1]
-    if "linktr.ee" in input:
-        username, url = None, input
+        linktree = Linktree()
+        user_info = await linktree.getLinktreeUserInfo(username = username, 
+                                                        url= url)
+
+        print(f"username : {user_info.username}")
+        print(f"avatar image: {user_info.avartar_image}")
+        print(f"isActive : {user_info.isActive}")
+        print(f"descripition : {user_info.description}")
+        print(f"createdAt unix : {user_info.createdAt}")
+        print(f"updatedAt unix : {user_info.updatedAt}")
+        print(f"createdAt : {str(convert_unix_time(user_info.createdAt))}")
+        print(f"updatedAt : {str(convert_unix_time(user_info.updatedAt))}")
+        print("\nLinks:")
+        for link in user_info.links:
+            print(link.title + ": "+ link.url)
+        print("\nContacts:")
+        for contact in user_info.contacts:
+            print(contact.title + ": "+ contact.url)
+
+        result = {
+            "username" : user_info.username,
+            "avatar": user_info.avartar_image,
+            "isActive": user_info.isActive,
+            "description": user_info.description,
+            "createdAt unix": user_info.createdAt,
+            "udpatedAt unix": user_info.updatedAt,
+            "createdAt": str(convert_unix_time(user_info.createdAt)),
+            "udpatedAt": str(convert_unix_time(user_info.updatedAt)),
+            "links": [{link.title: link.url} for link in user_info.links],
+            "contacts": [{contact.title: contact.url} for contact in user_info.contacts],
+        }
+
+        with open(f"./output/linktree_{user_info.username}.json", "w") as output:
+            json.dump(result, output, indent=4)
     else:
-        username, url = input, None
+        with open ("./links.txt", "r") as file:
+            users_to_scrape = file.read().splitlines()
 
-    linktree = Linktree()
-    user_info = await linktree.getLinktreeUserInfo(username = username, 
-                                                    url= url)
+        if users_to_scrape == []:
+            print("Username or url is needed in arguments or links.txt")
+            sys.exit(1)
 
-    print(f"username : {user_info.username}")
-    print(f"avatar image: {user_info.avartar_image}")
-    print(f"isActive : {user_info.isActive}")
-    print(f"descripition : {user_info.description}")
-    print(f"createdAt unix : {user_info.createdAt}")
-    print(f"updatedAt unix : {user_info.updatedAt}")
-    print(f"createdAt : {str(convert_unix_time(user_info.createdAt))}")
-    print(f"updatedAt : {str(convert_unix_time(user_info.updatedAt))}")
-    print("\nLinks:")
-    for link in user_info.links:
-        print(link.title + ": "+ link.url)
-    print("\nContacts:")
-    for contact in user_info.contacts:
-        print(contact.title + ": "+ contact.url)
+        combined_output = f"./output/linktree_combined_{datetime.datetime.now().strftime('%Y-%m-%d %H_%M_%S')}.json"
+        
+        for u in users_to_scrape:
+            if "linktr.ee" in u:
+                username, url = None, u
+            else:
+                username, url = u, None
+            linktree = Linktree()
+            user_info = await linktree.getLinktreeUserInfo(username = username, 
+                                                           url= url)
+            result = {
+                "username" : user_info.username,
+                "avatar": user_info.avartar_image,
+                "isActive": user_info.isActive,
+                "description": user_info.description,
+                "createdAt unix": user_info.createdAt,
+                "udpatedAt unix": user_info.updatedAt,
+                "createdAt": str(convert_unix_time(user_info.createdAt)),
+                "udpatedAt": str(convert_unix_time(user_info.updatedAt)),
+                "links": [{link.title: link.url} for link in user_info.links],
+                "contacts": [{contact.title: contact.url} for contact in user_info.contacts],
+            }
+            with open(f"./output/linktree_{user_info.username}.json", "w") as output:
+                json.dump(result, output, indent=4)
 
-    result = {
-        "username" : user_info.username,
-        "avatar": user_info.avartar_image,
-        "isActive": user_info.isActive,
-        "description": user_info.description,
-        "createdAt unix": user_info.createdAt,
-        "udpatedAt unix": user_info.updatedAt,
-        "createdAt": str(convert_unix_time(user_info.createdAt)),
-        "udpatedAt": str(convert_unix_time(user_info.updatedAt)),
-        "links": [{link.title: link.url} for link in user_info.links],
-        "contacts": [{contact.title: contact.url} for contact in user_info.contacts],
-    }
 
-    with open(f"./output/linktree_{user_info.username}.json", "w") as output:
-        json.dump(result, output, indent=4)
+            a = []
+            if not os.path.isfile(combined_output):
+                a.append(result)
+                with open(combined_output, mode='w') as f:
+                    f.write(json.dumps(a, indent=2))
+            else:
+                with open(combined_output) as feedsjson:
+                    feeds = json.load(feedsjson)
+
+                feeds.append(result)
+                with open(combined_output, mode='w') as f:
+                    f.write(json.dumps(feeds, indent=4))
+
+            
+            """with open(combined_output, "a") as output:
+                json.dump(result, output, indent=4)"""
+            
+
+
+            print(f"scraped {user_info.username}")
+
         
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
