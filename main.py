@@ -5,7 +5,7 @@ import asyncio
 import aiohttp
 from bs4 import BeautifulSoup
 import json
-import datetime
+from datetime import datetime
 import os
 
 @dataclass
@@ -171,8 +171,8 @@ class Linktree(object):
 
 def convert_unix_time(t):
     t = t/1000
-    date_time = datetime.datetime.fromtimestamp(t)
-    return date_time
+    d = datetime.fromtimestamp(t)
+    return d
 
 
 async def main():
@@ -226,7 +226,7 @@ async def main():
             print("Username or url is needed in arguments or links.txt")
             sys.exit(1)
 
-        combined_output = f"./output/linktree_combined_{datetime.datetime.now().strftime('%Y-%m-%d %H_%M_%S')}.json"
+        combined_output = f"./output/linktree_combined_{datetime.now().strftime('%Y-%m-%d %H_%M_%S')}.json"
         
         for u in users_to_scrape:
             if "linktr.ee" in u:
