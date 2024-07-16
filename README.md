@@ -3,10 +3,15 @@ Scraping Linktree user's information and links using python.
 
 # Usage
 
+put usernames/urls in links.txt then
+`main.py`
+
+OR
+
 `main.py <username> or <url>`
 
 # Example 
 
-`linktree.py cktc`
+`main.py cktc`
 
-`linktree.py https://linktr.ee/cktc`
+`main.py https://linktr.ee/cktc`
